@@ -249,7 +249,7 @@ def new_method_mode(dataframe, df_id_name, df_time_name, df_feature_name, df_clu
     return pd.DataFrame(np.array(result), columns=[df_id_name, df_time_name, "new_method_mode"])
 
 
-#Pre_And_Post_Feature_Analysis
+#Pre_And_Post_Clustering_Analysis
 
 def id_mfcm_list_ppa(missing_id_list, id_cluster_list):
     most_frequent_cluster_member = []
