@@ -28,6 +28,7 @@ In diesem Ordner befinden sich alle mit pickle_data_from_generated_data_dataset.
 
 ## Aufbau der Dateien in pickle und pickle2
 
+```python
 pickle_avg_X_Y -> Ist eine Liste welche pro Index die durchschnittlichen Abstände der wiederhergestellten Daten des DataFrames mit dem dazugehörigen Index anzeigt.
 pickle_df_X_Y -> Ist eine Liste die pro Index ein DataFrame besitzt. Jede verglichene Methode besitzt hier ihre eigene Reihe
 pickle_rating_X_Y -> Ist eine Liste die pro Index das beste CLOSE-Rating und die dazugehörigen epsilon und min_samples Werte beinhaltet die für DBSCAN benutzt wurden. 
@@ -40,3 +41,4 @@ pickle ->  X = Anzahl der fehlenden Datenpunkte pro Datensatz
 
 pickle2 -> X = Anzahl der fehlenden Datenpunkte pro Zeitreihe
            Y = Anzahl an Testdurchläufen oder anders Länge der Liste
+```
